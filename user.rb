@@ -23,7 +23,6 @@ describe User do
     let(:user) { User.new('Joe', 'Bloggs') }
 
     it 'has a first name' do
-      user = User.new('Katy', 'Jones')
       expect(user.first_name).to eq 'Joe'
     end
 
